@@ -1,0 +1,290 @@
+*{
+  
+}
+.img{
+    height: 750px;
+    position: absolute;
+    right: 55px;
+    top: 130px;
+   background-color: rgb(127, 255, 255);
+  box-shadow: red;
+   
+
+
+}
+.sub_heading{
+    position: absolute;
+    top: 260px;
+    left: 140px;
+    font-style: italic;
+   font-weight: bold;
+    color: rgb(15, 10, 2);
+    font-size: 22px;
+    
+}
+.main_heading{
+    position: absolute;
+    top: 310px;
+    left: 140px;
+    font-weight: bolder;
+    font-family: Merriweather Sans ;
+    font-size: 30px;
+    background-color: none;
+    color: rgba(0, 0, 0, 0.881);
+    font-style: initial;
+    
+    
+}
+.discription{
+    position: absolute;
+    top:370px ;
+    left: 140px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    font-family: roboto;
+    font-size: 20px;
+    background-color: none;
+}
+.card{
+  position: absolute;
+  top: 60px;
+
+
+
+}
+header{
+    
+}
+body{
+    background-image: url(./backgrung.jpg);
+ 
+
+}
+    
+.btn-1{
+  position: absolute;
+  top: 160px;
+  left: 150px;
+}
+.btn2{
+    position: absolute;
+    top: 160px;
+    left: 220px;
+}
+.btn3{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+}
+.btn4{
+    position: absolute;
+    top: 160px;
+    left: 390px;
+}
+.btn5{
+    position: absolute;
+    top: 160px;
+    left: 555px;
+}
+.btn6{
+    position: absolute;
+    top: 160px;
+    left: 470px;
+   background-color: rgb(148, 149, 149);
+}
+.btn7{
+    position: absolute;
+    top: 160px;
+    left: 625px;
+}
+.main_btn{
+    position: absolute;
+    top: 470px;
+    left: 145px;
+    text-decoration: underline;
+    background-color: rgb(67, 250, 238);
+    color: blue;
+}
+.img_bech{
+    height: 300px;
+    
+}
+.beach_1{
+    height: 260px;
+   width: 190px;
+   position: absolute;
+   top: 600px;
+   left: 100px;
+   box-shadow: 4px 4px 10px  rgb(117, 211, 254);
+}
+.beach_2{
+    height: 260px;
+    width: 180px;
+    position: absolute;
+    top: 600px;
+    left: 520px;
+    box-shadow: 4px 4px 10px  rgb(117, 211, 254);
+    
+}
+.beach_3{
+    height: 260px;
+    width: 190px;
+    position: absolute;
+    top: 600px;
+    left: 310px;
+    box-shadow: 4px 4px 10px  rgb(117, 211, 254);
+}
+.logo{
+    height: 85px;
+    position: absolute;
+    top: 135px;
+    right: 190px;
+}
+.logo_name{
+    position: absolute;
+    top: 140px ;
+    right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.ontact-sectionc{
+    position: absolute;
+    top: 900px;
+    font-size: 25px;
+}
+.box{
+    background-color: rgb(141, 200, 252);
+     border: 5px solid red;
+     position: absolute;
+     left: 460px;
+     text-align: center;
+     padding: 30px;
+     font-weight: 200px;
+}
+.end{
+   position: absolute;
+   top: 1150px;
+   left: 420px;
+   font-size: 25px;
+   font-weight: bold;
+   color: brown;
+   
+}
+.circle{
+     background-color: rgba(190, 215, 215, 0.87);
+     border: 3px solid rgb(130, 211, 245);
+     box-shadow: 3px 3px 3px rebeccapurple;
+     height: 40px;
+     width: 40px;
+  ;
+     position: absolute;
+     top: 270px;
+     left: 830px;
+     animation-name: rodunds;
+     animation-duration: 2s;
+     animation-iteration-count: infinite;
+}
+@keyframes rodunds{
+    0%{
+        transform: 0deg;
+        -webkit-transform: 0deg;
+        -moz-transform: 0deg;
+        -ms-transform: 0deg;
+        -o-transform: 0deg;
+} 50%{
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+      -o-transform: rotate(180deg);
+}
+ 
+    100%{
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+ }
+    
+
+ .call{
+   background-color: rgb(244, 184, 95);
+   height: 8px;
+   width: 50px;
+   box-shadow: 3px 5px 20px rgb(224, 255, 120);
+   position: absolute;
+   top: 585px;
+   left: 60px;
+   animation-name: run;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+@keyframes run{
+    0%{
+        position: absolute;
+        top: 585px;
+        left: 55px;
+    }
+    30%{
+        top: 585px;
+        left: 720px
+    }
+    50%{
+        top: 855px;
+        left: 710px;
+    }
+    80%{
+        top:865px ;
+        left: 55px;
+    }
+    100%{
+        top: 580px;
+        left: 50px;
+    }
+
+
+}
+
+.circle_sub{
+    background-color: rgba(165, 157, 253, 0.87);
+    border: 3px solid rgb(136, 149, 248);
+    height: 40px;
+    width: 40px;
+ ;
+ box-shadow: 3px 3px 15px rgb(153, 210, 250);
+    position: absolute;
+    top: 650px;
+    left: 980px;
+    animation-name: rodund;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes rodund{
+   0%{
+     
+   }
+   
+   /* } 50%{
+     transform: rotate(180deg);
+     -webkit-transform: rotate(180deg);
+     -moz-transform: rotate(180deg);
+     -ms-transform: rotate(180deg);
+     -o-transform: rotate(180deg);
+} */
+
+   100%{
+   transform: rotate(360deg);
+   -webkit-transform: rotate(360deg);
+   -moz-transform: rotate(360deg);
+   -ms-transform: rotate(360deg);
+   -o-transform: rotate(360deg);
+}
+}
+   

@@ -1,0 +1,36 @@
+.circle{
+    background-color: rgba(190, 215, 215, 0.87);
+    border: 3px solid rgb(57, 80, 255);
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    position: absolute;
+    top: 450px;
+    left: 830px;
+    animation-name: rodunds;
+    animation-duration: 3s;
+}
+@keyframes rodunds{
+   0%{
+       top: 450px;
+    left: 830px;
+       ;
+   }
+   25%{
+       left: 550px;
+       top: 930px;
+   }
+   50%{
+    top: auto;
+ left: auto ;
+    ;
+}
+75%%{
+    left: auto;
+    top: auto
+}
+}
